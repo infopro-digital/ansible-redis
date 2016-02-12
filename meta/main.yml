@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Emilien Mantel
+  author: Loic Blot
   description: Redis for Debian
   company:
   license: GPLv2
@@ -13,4 +13,3 @@ galaxy_info:
   categories:
   - database:nosql
 dependencies: []
-
