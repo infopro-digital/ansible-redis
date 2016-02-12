@@ -44,3 +44,6 @@ redisconf_hz: '10'
 redisconf_aof_rewrite_incremental_fsync: 'yes'
 
 redis_use_apt_backports: false
+redis_service_manage: true
+redis_restart_on_config_update: true
+redis_enable: true
