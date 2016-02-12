@@ -10,6 +10,7 @@ galaxy_info:
     versions:
     - wheezy
     - jessie
-  categories:
-  - database:nosql
+  galaxy_tags:
+    - database:nosql
+  issue-tracker-url: https://github.com/infopro-digital/ansible-redis/issues
 dependencies: []
