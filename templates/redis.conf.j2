@@ -248,6 +248,7 @@ slave-priority {{ redisconf_slave_priority }}
 
 ################################## SECURITY ###################################
 
+{% if redisconf_auth_password %}
 # Require clients to issue AUTH <PASSWORD> before processing any other
 # commands.  This might be useful in environments in which you do not trust
 # others with access to the host running redis-server.
@@ -259,7 +260,8 @@ slave-priority {{ redisconf_slave_priority }}
 # 150k passwords per second against a good box. This means that you should
 # use a very strong password otherwise it will be very easy to break.
 #
-# requirepass foobared
+requirepass {{ redisconf_auth_password }}
+{% endif %}
 
 # Command renaming.
 #

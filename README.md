@@ -17,6 +17,7 @@ Role Variables
   - redis\_use\_apt\_backports: set true to install Redis from backports (default: false).
   - redis\_enable: set true to enable Redis service (default: true)
   - redis\_service\_manage: set true to let role manage Redis server start/enable/restart on config change.
+  - redisconf\_auth\_password: set a redis server authentication password
 
 Dependencies
 ------------

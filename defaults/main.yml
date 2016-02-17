@@ -42,6 +42,7 @@ redisconf_client_output_buffer_limit:
   - 'pubsub 32mb 8mb 60'
 redisconf_hz: '10'
 redisconf_aof_rewrite_incremental_fsync: 'yes'
+redisconf_auth_password: false
 
 redis_use_apt_backports: false
 redis_service_manage: true
